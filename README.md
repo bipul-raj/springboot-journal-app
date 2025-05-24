@@ -4,21 +4,33 @@ A simple **Spring Boot** application to manage journal entries, built with **Jav
 
 ---
 
-## 🚀 Features
+## Features
 
-- Create, Read, Update, and Delete journal entries
-- MongoDB as the NoSQL database
-- RESTful API design using Spring MVC
-- Auto timestamping on entry creation
-- Easily extensible for authentication, UI, etc.
+- Create, read, update, and delete journal entries
+- Stores data in MongoDB
+- RESTful API endpoints
+- Uses Spring Data MongoDB for repository layer
+- Auto-generated timestamps on entries
 
----
+## Tech Stack
 
-## 📦 Tech Stack
+- Java 17+
+- Spring Boot
+- Spring Data MongoDB
+- Maven
+- MongoDB
 
-- **Java 17+**
-- **Spring Boot**
-- **MongoDB**
-- **Maven**
-- **Postman** (for API testing)
-- **Git & GitHub** (version control)
+## Getting Started
+
+### Prerequisites
+
+- Java 17 or higher
+- Maven 3.6+
+- MongoDB running locally or remotely
+
+### Setup and Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bipul-raj/springboot-journal-app.git
+   cd springboot-journal-app
